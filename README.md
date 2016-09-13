@@ -7,6 +7,7 @@ Using project `fruitmix` ( [*Link*](https://github.com/JiangWeiGitHub/FruitMix) 
 + `-H, --header LINE` Pass custom header LINE to server
 + `-X, --request COMMAND` Specify request command to use, just like 'POST' or 'GET'
 + `-u, --user USER[:PASSWORD]` Server user and password
++ `-F, --form CONTENT` Specify HTTP multipart POST data, don't use `-d` to post data directly
 + `shell nesting` \`ShellCommand parameters\` just like \`ls -la ./\`
 
 ### Precondition
