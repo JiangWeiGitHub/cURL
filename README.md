@@ -24,7 +24,11 @@ Using project `fruitmix` ( [*Link*](https://github.com/JiangWeiGitHub/FruitMix) 
   curl http://localhost:3721/init
   curl http://localhost:3721/login        
   curl -u 5da92303-33a1-4f79-8d8f-a7b6becde6c3:123456 http://localhost:3721/token        
+  
   curl -H "`cat header`" http://localhost:3721/drives
+  
+  // Download file
+  curl -H "Authorization: JWT eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1dWlkIjoiNWRhOTIzMDMtMzNhMS00Zjc5LThkOGYtYTdiNmJlY2RlNmMzIn0.79bUgRf9-m0KYP42_BV06yjtxaxgqYIiNdiIJIXfRMM" http://localhost:3721/files/fc55286e-2de9-4ef2-821f-6f1b79979ecb -X GET -O
   ```
 
 ### POST
